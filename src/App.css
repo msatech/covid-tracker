@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+}
+body{
+/* background-color: #f5f6fa; */
+background-color: #161625;
+color:#6B747C;
+}
+
+.app__header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.country__flag{
+  height: 20px;
+  width: 20px;
+  padding-right:10px;
+}
+
+.app__stats{
+  display: flex;
+  justify-content:space-between;
+  
+  
+}
+.App{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+@media (max-width: 990px){
+  .App{
+    
+    flex-direction: column;
+  }
+}
+.app__left{
+  flex:0.8;
+  margin-top:20px;
+}
+.app__right{
+  
+  margin-top: 20px;
+  
+}
+
+@media (max-width: 600px){
+  .app__stats{
+      flex-direction: column;
+      margin: 5px;
+  }
+  
+}
+
+

@@ -1,0 +1,43 @@
+.cases__card{
+    
+    margin-right: 10px;
+    text-align: center;
+    background-color: transparent !important;
+    cursor: pointer;
+    box-shadow: none;
+    border: none;
+    
+    
+}
+.cases__card:hover{
+    border: 2px dotted red;
+    
+}
+
+.infoBox__title{
+    padding-bottom: 5px;
+}
+.infoBox__total{
+    padding-top:10px;
+}
+
+
+@media (max-width: 600px){
+    .cases__card{
+        
+        margin-top: 5px;
+    }
+    
+  }
+
+
+.Cases:hover{
+    background-color: #f3d2d9 !important;
+}
+
+.Recovered:hover{
+    background-color: #f0fcf3 !important;
+}
+.Deaths:hover{
+    background-color: #FFC5D0 !important;
+}
